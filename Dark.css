@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.8s;
+}
+
+.toggle {
+  width: 65px;
+  height: 35px;
+  background-color: darkgray;
+  border-radius: 35px;
+  cursor: pointer;
+  position: relative;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  transition: left 0.8s;
+}
+
+.left {
+  left: 38px;
+}
+
+.dark {
+  background-color: #000;
+}
